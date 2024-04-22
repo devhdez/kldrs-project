@@ -1,5 +1,4 @@
 import {
-    GooglePlayButton,
     AppStoreButton,
     ButtonsContainer,
   } from "react-mobile-app-button";
@@ -9,13 +8,8 @@ import {
     const IOSUrl = "https://apps.apple.com/us/app/expo-go/id982107779";
   
     return (
-      <div className="flex rounded-2xl border-red-700 items-center mx-auto my-3">
-        <ButtonsContainer>
-          <GooglePlayButton
-            url={APKUrl}
-            theme={"light"}
-            className={"custom-style"}
-          />
+      <div className="flex place-content-center py-20">
+        <ButtonsContainer >
           <AppStoreButton
             url={IOSUrl}
             theme={"light"}

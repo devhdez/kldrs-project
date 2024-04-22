@@ -10,16 +10,18 @@ export default function Header() {
         <div className="flex py-2 md:ml-4 md:mt-0">
           <button
             type="button"
-            className="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+            className="inline-flex place-self-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
           >
             Presskit
           </button>
           <button
             type="button"
-            className="mr-5 ml-3 inline-flex items-center rounded-md bg-orange-300 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="mr-5 ml-3 inline-flex place-self-center rounded-md bg-sky-400 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Contact!
+            Contact
           </button>
+
+
         </div>
       </div>
     )
