@@ -1,11 +1,8 @@
 const navigation = {
     main: [
       { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Jobs', href: '#' },
       { name: 'Press', href: '#' },
       { name: 'Accessibility', href: '#' },
-      { name: 'Partners', href: '#' },
     ],
     social: [
       {
@@ -94,7 +91,7 @@ const navigation = {
             ))}
           </div>
           <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-            &copy; 2020 Your Company, Inc. All rights reserved.
+            &copy; Daniel Kilders 2024, Contact, Privacy Policy
           </p>
         </div>
       </footer>
