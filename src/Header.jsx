@@ -16,7 +16,7 @@ export default function Header() {
           </button>
           <button
             type="button"
-            className="mr-5 ml-3 inline-flex place-self-center rounded-md bg-sky-400 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="mr-5 ml-3 inline-flex place-self-center rounded-md bg-amber-100 px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Contact
           </button>
