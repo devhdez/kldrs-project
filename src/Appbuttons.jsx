@@ -3,10 +3,9 @@ import {
     ButtonsContainer,
   } from "react-mobile-app-button";
 
-  import { motion, stagger } from "framer-motion";
+  import { motion } from "framer-motion";
   
   export default function Buttons () {
-    const APKUrl = "https://play.google.com/store/apps/details?id=host";
     const IOSUrl = "https://apps.apple.com/us/app/expo-go/id982107779";
   
     return (
