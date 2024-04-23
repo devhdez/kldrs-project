@@ -26,10 +26,10 @@ const features = [
 
 export default function Feat() {
   return (
-    <div className="bg-white py-5 sm:py-5 align-middle align-content:center text-center">
+    <div className="bg-white mx-auto py-5 sm:pb-20 align-middle align-content:center text-center">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto mt-16 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-none">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+          <dl className="grid mx-auto max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col">
                 <dt className="text-base font-semibold leading-7 text-gray-900 align-items:center">
