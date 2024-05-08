@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const navigation = {
     main: [
     ],
@@ -46,8 +48,8 @@ const navigation = {
           </div>
           <p className="mt-10 text-center text-xs leading-5 text-gray-500">
             &copy; Daniel Kilders 2024
-            <button className="mt-10 ml-6 mr-3 text-center text-xs leading-5 text-gray-500" onClick={() => window.location = 'https://www.google.com'}>Contact</button>
-            <button className="mt-10 mx-3 text-center text-xs leading-5 text-gray-500" href="www.google.com">Privacy Policy</button>
+            <Link to="/privacyPolicy" className="mt-10 ml-6 mr-3 text-center text-xs leading-5 text-gray-500">Privacy Policy</Link>
+            <button className="mt-10 mx-3 text-center text-xs leading-5 text-gray-500" onClick={() => window.location = 'https://www.kdincubator.com/impressum.html'}>Impressum</button>
           </p>
         </div>
       </footer>
